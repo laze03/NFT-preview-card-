@@ -1,0 +1,28 @@
+// colors
+$bg-color: hsl(217, 54%, 11%);
+$card-color: hsl(216, 50%, 16%);
+$line-color: hsl(215, 32%, 27%);
+$primary-color: hsl(215, 51%, 70%);
+$cyan-color: hsl(178, 100%, 50%);
+
+
+$white-color: #fff;
+$black-color: rgba(0,0,0,0.2);
+
+// FONT SIZE
+$default-font-size: 1.6rem;
+
+// grid
+$grid-width:114rem;
+$gutter-vertical: 0;
+$gutter-horizontal: 0;
+
+// utilities
+
+.u-marging-bottom {
+   margin-bottom: 1.5rem;
+}
+
+.u-marging-bottom-text {
+     margin-bottom: 1.5rem;
+}

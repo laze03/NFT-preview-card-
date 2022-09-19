@@ -1,0 +1,92 @@
+body {
+  background-color: $bg-color;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  background-color: $card-color;
+  font-family: 'Outfit', sans-serif;
+  width: .2*144rem;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.nft-img {
+  width: 100%;
+  border-radius: 1rem;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+h1 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: white;
+}
+
+.info {
+  display: flex;
+  padding-top: .5rem;
+  position: relative;
+}
+
+svg {
+  margin-right: .5rem;
+}
+
+.time-div {
+  display: flex;
+  position: absolute;
+  right: 0.5rem;
+}
+
+.time {
+  color: $primary-color;
+  font-weight: 400;
+}
+
+.price {
+  color: $cyan-color;
+  font-weight: 400;
+}
+
+.text, .author {
+  font-weight: 300;
+  color: $primary-color;
+}
+
+.line {
+  display: inline-block;
+  height: 1px;
+  width: 100%;
+  background-color: $line-color;
+  margin: .5rem 0 1rem;
+}
+
+.author-div {
+  display: flex;
+  position: relative;
+
+}
+
+.avatar {
+  width: 10%;
+  border: 1px solid white;
+  border-radius: 100%;
+  margin-right: 1rem;
+}
+
+.author {
+  position: absolute;
+  top: .2rem;
+  margin-left: 3rem;
+}
+
+.name {
+  color: white;
+}
